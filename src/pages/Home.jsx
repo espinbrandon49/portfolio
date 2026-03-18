@@ -10,35 +10,49 @@ export default function Home() {
     <main>
       <section className="py-20 sm:py-24">
         <Container>
-          <div className="space-y-6">
-            <p className="text-sm font-medium uppercase tracking-[0.2em] text-slate-500">
-              Full-Stack Developer
-            </p>
+          <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
+            {/* LEFT: TEXT */}
+            <div className="space-y-6">
+              <p className="text-sm font-medium uppercase tracking-[0.2em] text-slate-500">
+                Full-Stack Developer
+              </p>
 
-            <h1 className="max-w-4xl text-4xl font-semibold tracking-tight text-slate-900 sm:text-5xl">
-              Structured, production-ready systems built with clarity and
-              purpose.
-            </h1>
+              <h1 className="text-4xl font-semibold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
+                Structured, production-ready systems built with clarity and
+                purpose.
+              </h1>
 
-            <p className="max-w-2xl text-lg leading-8 text-slate-600">
-              I build full-stack applications with a focus on architecture,
-              usability, and clean execution.
-            </p>
+              <p className="max-w-2xl text-lg leading-8 text-slate-600">
+                I build full-stack applications with a focus on architecture,
+                usability, and clean execution.
+              </p>
 
-            <div className="flex flex-wrap gap-3 pt-2">
-              <Link
-                to="/projects"
-                className="inline-flex items-center rounded-md bg-slate-900 px-5 py-3 text-sm font-medium text-white transition hover:bg-slate-800"
-              >
-                View Projects
-              </Link>
+              <div className="flex flex-wrap gap-3 pt-2">
+                <Link
+                  to="/projects"
+                  className="inline-flex items-center rounded-md bg-slate-900 px-5 py-3 text-sm font-medium text-white transition hover:bg-slate-800"
+                >
+                  View Projects
+                </Link>
 
-              <Link
-                to="/contact"
-                className="inline-flex items-center rounded-md border border-slate-300 px-5 py-3 text-sm font-medium text-slate-700 transition hover:border-slate-400 hover:text-slate-900"
-              >
-                Contact
-              </Link>
+                <Link
+                  to="/contact"
+                  className="inline-flex items-center rounded-md border border-slate-300 px-5 py-3 text-sm font-medium text-slate-700 transition hover:border-slate-400 hover:text-slate-900"
+                >
+                  Contact
+                </Link>
+              </div>
+            </div>
+
+            {/* RIGHT: BANNER IMAGE */}
+            <div className="relative">
+              <div className="overflow-hidden rounded-2xl border border-slate-200 shadow-md">
+                <img
+                  src="/banner.png"
+                  alt="Portfolio banner"
+                  className="w-full h-full object-cover transition duration-500 hover:scale-[1.02]"
+                />
+              </div>
             </div>
           </div>
         </Container>
