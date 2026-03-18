@@ -4,8 +4,16 @@ import { projects } from "../data/projects";
 
 export default function Projects() {
   const totalProjects = projects.length;
-  const primaryStack = ["React", "Node", "MySQL"];
-  const additionalExperience = ["MongoDB", "PostgreSQL", "Flask"];
+  const coreStack = [
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "MySQL",
+    "PostgreSQL",
+    "Flask",
+    "Socket.io",
+  ];
 
   return (
     <main className="py-20">
@@ -41,24 +49,10 @@ export default function Projects() {
 
           <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:col-span-2">
             <p className="text-sm font-medium uppercase tracking-[0.14em] text-slate-500">
-              Primary Stack
+              Core Stack
             </p>
             <div className="mt-3 flex flex-wrap gap-2">
-              {primaryStack.map((item) => (
-                <span
-                  key={item}
-                  className="rounded-full bg-slate-100 px-3 py-1 text-sm text-slate-700"
-                >
-                  {item}
-                </span>
-              ))}
-            </div>
-
-            <p className="mt-5 text-sm font-medium uppercase tracking-[0.14em] text-slate-500">
-              Additional Experience
-            </p>
-            <div className="mt-3 flex flex-wrap gap-2">
-              {additionalExperience.map((item) => (
+              {coreStack.map((item) => (
                 <span
                   key={item}
                   className="rounded-full bg-slate-100 px-3 py-1 text-sm text-slate-700"

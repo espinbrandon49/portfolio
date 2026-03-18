@@ -9,8 +9,9 @@ export default function Contact() {
             Contact
           </h1>
           <p className="text-lg leading-8 text-slate-600">
-            I’m open to full-stack and backend development opportunities. Feel
-            free to reach out via email or GitHub.
+            I’m actively seeking full-stack and backend development
+            opportunities. For roles, collaboration, or project discussions,
+            reach out by email or connect with me on GitHub.
           </p>
           <div className="space-y-3 text-lg text-slate-600">
             <p>

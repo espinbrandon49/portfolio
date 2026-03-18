@@ -2,13 +2,14 @@ export const projects = [
   {
     name: "Beaconry",
     description:
-      "Real-time broadcast system designed for structured, one-way communication with subscription-scoped delivery.",
-    stack: ["MongoDB", "Express", "React", "Node"],
+      "Real-time broadcast system for delivering one-way announcements to subscribed users with strict access control.",
+    stack: ["React", "Node.js", "Express", "MongoDB", "Mongoose", "Socket.io"],
     highlights: [
-      "Role-based access control (broadcaster vs subscriber)",
-      "Subscription-scoped feed delivery",
-      "Invite-based channel access",
-      "RESTful API with session authentication"
+      "Session-based authentication with role-gated broadcaster actions",
+      "Subscription-scoped feed ensures users only receive relevant channel updates",
+      "Real-time delivery via Socket.io with per-channel room isolation",
+      "REST API with clear separation of auth, channels, subscriptions, and broadcasts",
+      "MongoDB schema design with indexed queries for fast feed retrieval"
     ],
     demo: "https://beaconry-5423965f3fe8.herokuapp.com/",
     github: "https://github.com/espinbrandon49/Beaconry"
@@ -16,41 +17,29 @@ export const projects = [
   {
     name: "Narratorium",
     description:
-      "Collaborative storytelling platform with real-time editing and token-based contribution mechanics.",
-    stack: ["MongoDB", "Express", "React", "Node"],
+      "Real-time collaborative storytelling app with tokenized state and server-controlled write windows.",
+    stack: ["Node.js", "Express", "Socket.io", "Sequelize", "MySQL", "Express Session"],
     highlights: [
-      "Real-time collaborative editing",
-      "Token-based contribution system",
-      "Structured story progression mechanics",
-      "Custom UI/UX narrative design"
+      "Token-based story state with ordered, immutable positions",
+      "Real-time updates via Socket.io with room-based broadcasting",
+      "Session-based authentication shared between HTTP and sockets",
+      "Server-authoritative time window ('The Opening') controls write access",
+      "Append-only event model with bounded story window for performance"
     ],
     demo: "https://narratorium-e41b5a6a7718.herokuapp.com/",
     github: "https://github.com/espinbrandon49/narratorium-enchanted"
   },
   {
-    name: "SwapMeetReact",
-    description:
-      "Marketplace platform for listing, browsing, and purchasing items across categorized shops.",
-    stack: ["MongoDB", "Express", "React", "Node"],
-    highlights: [
-      "Category-based product browsing",
-      "Shop and listing management",
-      "Cart and checkout flow",
-      "RESTful backend architecture"
-    ],
-    demo: "https://swapmeetreact.netlify.app/",
-    github: "https://github.com/espinbrandon49/Swap-Meet-React"
-  },
-  {
     name: "Hack-A-Thought",
     description:
-      "Structured blog platform with a clean data layer and emphasis on content organization.",
-    stack: ["MongoDB", "Express", "React", "Node"],
+      "Full-stack blogging platform with authentication, post creation, and comment system built on a structured API layer.",
+    stack: ["React", "Node.js", "Express", "Sequelize", "MySQL", "Axios"],
     highlights: [
-      "Canonical data modeling",
-      "Structured post organization",
-      "Full CRUD operations",
-      "Clean UI with Tailwind styling"
+      "Session-based authentication with protected routes and persistent login state",
+      "REST API with standardized success/error response contract",
+      "Relational data model linking users, blogs, and comments",
+      "Centralized HTTP client layer with normalized API error handling",
+      "CRUD operations for blogs with ownership enforcement and comment system"
     ],
     demo: "https://hack-a-thought-473618422e58.herokuapp.com/",
     github: "https://github.com/espinbrandon49/Hack-A-Thought"
@@ -58,15 +47,31 @@ export const projects = [
   {
     name: "GlobeMaster",
     description:
-      "Interactive quiz application with persistent data tracking and structured gameplay logic.",
-    stack: ["PostgreSQL", "Flask", "React"],
+      "Geography quiz app with session persistence, backend answer validation, and leaderboard tracking.",
+    stack: ["React", "Flask", "PostgreSQL", "SQLAlchemy", "Vite"],
     highlights: [
-      "Database-driven question system",
-      "Session tracking and scoring",
-      "Backend validation logic",
-      "Full-stack integration"
+      "End-to-end question-answer loop with backend validation (no correct answers exposed to frontend)",
+      "Session persistence using localStorage with resume capability",
+      "Player profiles with difficulty preferences and category-based question selection",
+      "Leaderboard API for top session scores",
+      "RESTful backend with modular route structure (players, sessions, questions, metadata)"
     ],
     demo: "https://globemaster-bcaf42abf3ef.herokuapp.com/",
     github: "https://github.com/espinbrandon49/globemaster"
+  },
+  {
+    name: "SwapMeet React",
+    description:
+      "Multi-user marketplace API supporting categories, products, tags, and cart management with relational data modeling.",
+    stack: ["Node.js", "Express", "MySQL", "Sequelize", "JWT"],
+    highlights: [
+      "Relational data model with users, categories, products, tags, and carts using Sequelize ORM",
+      "RESTful API with modular route structure for users, products, categories, tags, and cart operations",
+      "JWT-based authentication middleware for protected routes",
+      "MySQL database connection managed via environment configuration and Sequelize instance",
+      "Seeded multi-user dataset demonstrating cross-user cart functionality"
+    ],
+    demo: "https://swapmeetreact.netlify.app/",
+    github: "https://github.com/espinbrandon49/Swap-Meet-React"
   }
 ];

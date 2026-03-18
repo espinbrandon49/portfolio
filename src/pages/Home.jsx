@@ -18,13 +18,13 @@ export default function Home() {
               </p>
 
               <h1 className="text-4xl font-semibold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
-                Structured, production-ready systems built with clarity and
-                purpose.
+                I build complete, production-ready systems — not just features.
               </h1>
+
               <p className="max-w-2xl text-lg leading-8 text-slate-600">
-                Full-stack developer specializing in React, Node.js, and
-                database-driven applications, with a focus on clean architecture
-                and production-ready systems.
+                5 deployed full-stack applications with real authentication,
+                database design, and live user workflows. Built with React,
+                Node.js, and modern backend architecture.
               </p>
 
               <div className="flex flex-wrap gap-3 pt-2">
@@ -41,6 +41,25 @@ export default function Home() {
                 >
                   Contact
                 </Link>
+              </div>
+
+              <div className="flex flex-wrap gap-6 pt-6 text-sm text-slate-600">
+                <div>
+                  <span className="font-semibold text-slate-900">5</span>{" "}
+                  Deployed Apps
+                </div>
+                <div>
+                  <span className="font-semibold text-slate-900">
+                    Full Stack
+                  </span>{" "}
+                  (MERN + Flask)
+                </div>
+                <div>
+                  <span className="font-semibold text-slate-900">
+                    Auth + APIs
+                  </span>{" "}
+                  + Databases
+                </div>
               </div>
             </div>
 

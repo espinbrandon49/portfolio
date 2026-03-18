@@ -1,9 +1,8 @@
 ![Portfolio Banner](./public/banner.png)
 
 # Brandon Espinosa — Portfolio
-# Brandon Espinosa — Portfolio
 
-> Full-stack developer focused on structured, production-ready systems built with clarity and purpose.
+> > I build complete, production-ready systems — not just features. This portfolio includes 5 deployed full-stack applications with real authentication, database design, and live user workflows.
 
 ---
 
@@ -33,17 +32,21 @@ Every project included here is **fully built, deployed, and functional** — not
 
 ## 🛠️ Tech Stack
 
-**Frontend**
+**Core Technologies**
 - React
+- Node.js
+- Express
+- MongoDB / Mongoose
+- MySQL / Sequelize
+- PostgreSQL / SQLAlchemy
+
+**Additional Tools & Libraries**
+- Socket.io (real-time systems)
+- Express Session / JWT (authentication)
+- Axios (API client)
 - Vite
 - Tailwind CSS
 - React Router
-
-**Backend (Across Projects)**
-- Node.js / Express
-- MongoDB / Mongoose
-- PostgreSQL / Flask
-
 ---
 
 ## 📦 Featured Projects
