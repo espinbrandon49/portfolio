@@ -8,7 +8,10 @@ export default function Contact() {
           <h1 className="text-3xl font-semibold tracking-tight text-slate-900">
             Contact
           </h1>
-
+          <p className="text-lg leading-8 text-slate-600">
+            I’m open to full-stack and backend development opportunities. Feel
+            free to reach out via email or GitHub.
+          </p>
           <div className="space-y-3 text-lg text-slate-600">
             <p>
               Email:{" "}

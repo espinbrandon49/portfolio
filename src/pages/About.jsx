@@ -4,7 +4,7 @@ const principles = [
   "Build complete systems, not disconnected features.",
   "Prioritize clarity, maintainability, and clean structure.",
   "Design around real workflows and real users.",
-  "Finish projects end-to-end with production deployment in mind."
+  "Finish projects end-to-end with production deployment in mind.",
 ];
 
 export default function About() {
@@ -26,6 +26,12 @@ export default function About() {
             understandable, maintainable, and complete. I care about strong
             architecture, clean interfaces, and practical execution—not just
             getting something to work once.
+          </p>
+
+          <p className="max-w-3xl text-lg leading-8 text-slate-600">
+            I am seeking opportunities as a full-stack or backend-focused
+            developer, where I can contribute to building reliable,
+            production-ready systems.
           </p>
         </section>
 
@@ -62,8 +68,9 @@ export default function About() {
 
               <p className="text-lg leading-8 text-slate-600">
                 That perspective carries directly into my development work: I
-                care about how people actually use systems, how clearly a product
-                communicates, and whether the overall experience feels coherent.
+                care about how people actually use systems, how clearly a
+                product communicates, and whether the overall experience feels
+                coherent.
               </p>
             </div>
 

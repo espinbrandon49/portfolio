@@ -21,10 +21,10 @@ export default function Home() {
                 Structured, production-ready systems built with clarity and
                 purpose.
               </h1>
-
               <p className="max-w-2xl text-lg leading-8 text-slate-600">
-                I build full-stack applications with a focus on architecture,
-                usability, and clean execution.
+                Full-stack developer specializing in React, Node.js, and
+                database-driven applications, with a focus on clean architecture
+                and production-ready systems.
               </p>
 
               <div className="flex flex-wrap gap-3 pt-2">
