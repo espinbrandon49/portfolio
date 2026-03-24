@@ -8,7 +8,8 @@
 
 ## 🚀 Live Portfolio
 
-🔗 **View Portfolio:** https://your-live-url.com  
+🔗 **View Portfolio:** https://espinosa-portfolio-ed7cbcfe5cfd.herokuapp.com/
+
 🔗 **GitHub:** https://github.com/espinbrandon49  
 
 ---
@@ -121,18 +122,6 @@ Interactive quiz application with persistent data tracking and structured gamepl
 
 ---
 
-## 📸 Screenshots
-
-> *(Add screenshots here — highly recommended for recruiter impact)*
-
-Example:
-```
-![Portfolio Home](./screenshots/home.png)
-![Projects Page](./screenshots/projects.png)
-```
-
----
-
 ## ⚙️ Local Development
 
 ```bash
@@ -146,16 +135,3 @@ npm run dev
 
 - 📧 Email: espinbrandon49@gmail.com  
 - 💼 GitHub: https://github.com/espinbrandon49  
-
----
-
-## 📌 Status
-
-**Complete — Portfolio Ready**
-
----
-
-## 🧾 Notes
-
-This project is intended as a **portfolio showcase**, not a production-scale application.  
-Its purpose is to clearly present completed systems, technical decisions, and development capability.
