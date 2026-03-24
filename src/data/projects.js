@@ -60,7 +60,7 @@ export const projects = [
     github: "https://github.com/espinbrandon49/globemaster"
   },
   {
-    name: "SwapMeet React",
+    name: "SwapMeetReact",
     description:
       "Multi-user marketplace API supporting categories, products, tags, and cart management with relational data modeling.",
     stack: ["Node.js", "Express", "MySQL", "Sequelize", "JWT"],
@@ -71,7 +71,7 @@ export const projects = [
       "MySQL database connection managed via environment configuration and Sequelize instance",
       "Seeded multi-user dataset demonstrating cross-user cart functionality"
     ],
-    demo: "https://swapmeetreact.netlify.app/",
+    demo: "https://swapmeetreact-ad48473e0ba5.herokuapp.com/",
     github: "https://github.com/espinbrandon49/Swap-Meet-React"
   }
 ];

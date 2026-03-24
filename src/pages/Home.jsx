@@ -41,6 +41,16 @@ export default function Home() {
                 >
                   Contact
                 </Link>
+
+                {/* ✅ NEW: RESUME BUTTON */}
+                <a
+                  href="/Brandon_Espinosa_Resume.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center rounded-md border border-slate-300 px-5 py-3 text-sm font-medium text-slate-700 transition hover:border-slate-400 hover:bg-slate-50 hover:text-slate-900"
+                >
+                  View Resume
+                </a>
               </div>
 
               <div className="flex flex-wrap gap-6 pt-6 text-sm text-slate-600">

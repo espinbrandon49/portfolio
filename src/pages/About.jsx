@@ -44,9 +44,7 @@ export default function About() {
 
               <p className="text-lg leading-8 text-slate-600">
                 I prefer projects with clear systems, defined responsibilities,
-                and thoughtful organization. Whether I’m working on frontend
-                presentation, backend APIs, database structure, or deployment, I
-                try to keep each layer clean and intentional.
+                and thoughtful organization. Whether I’m working on frontend presentation, backend APIs, database structure, or deployment; I try to keep each layer clean and intentional.
               </p>
 
               <p className="text-lg leading-8 text-slate-600">

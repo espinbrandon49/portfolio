@@ -2,7 +2,7 @@
 
 # Brandon Espinosa — Portfolio
 
-> > I build complete, production-ready systems — not just features. This portfolio includes 5 deployed full-stack applications with real authentication, database design, and live user workflows.
+> I build complete, production-ready systems — not just features. This portfolio includes 5 deployed full-stack applications with real authentication, database design, and live user workflows.
 
 ---
 
@@ -36,9 +36,9 @@ Every project included here is **fully built, deployed, and functional** — not
 - React
 - Node.js
 - Express
-- MongoDB / Mongoose
-- MySQL / Sequelize
-- PostgreSQL / SQLAlchemy
+- MongoDB/Mongoose
+- MySQL/Sequelize
+- PostgreSQL/SQLAlchemy
 
 **Additional Tools & Libraries**
 - Socket.io (real-time systems)
